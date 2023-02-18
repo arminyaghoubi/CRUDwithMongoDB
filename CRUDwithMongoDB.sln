@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDwithMongoDB.API", "CRUDwithMongoDB.API\CRUDwithMongoDB.API.csproj", "{00C32432-359C-4E4E-9C3A-B8E48B5E6EC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDwithMongoDB.Common", "CRUDwithMongoDB.Common\CRUDwithMongoDB.Common.csproj", "{F2AFEB30-55A0-4741-B92A-6B9ADC04B8DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDwithMongoDB.DAL", "CRUDwithMongoDB.DAL\CRUDwithMongoDB.DAL.csproj", "{0A84A216-5EE8-407F-AE16-5E27F7606752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDwithMongoDB.BL", "CRUDwithMongoDB.BL\CRUDwithMongoDB.BL.csproj", "{428A5A6F-B177-4F3D-BDC6-5CF1CCE0842A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{00C32432-359C-4E4E-9C3A-B8E48B5E6EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00C32432-359C-4E4E-9C3A-B8E48B5E6EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00C32432-359C-4E4E-9C3A-B8E48B5E6EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AFEB30-55A0-4741-B92A-6B9ADC04B8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AFEB30-55A0-4741-B92A-6B9ADC04B8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AFEB30-55A0-4741-B92A-6B9ADC04B8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AFEB30-55A0-4741-B92A-6B9ADC04B8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A84A216-5EE8-407F-AE16-5E27F7606752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A84A216-5EE8-407F-AE16-5E27F7606752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A84A216-5EE8-407F-AE16-5E27F7606752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A84A216-5EE8-407F-AE16-5E27F7606752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428A5A6F-B177-4F3D-BDC6-5CF1CCE0842A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428A5A6F-B177-4F3D-BDC6-5CF1CCE0842A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428A5A6F-B177-4F3D-BDC6-5CF1CCE0842A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428A5A6F-B177-4F3D-BDC6-5CF1CCE0842A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
