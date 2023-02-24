@@ -2,11 +2,8 @@
 
 namespace CRUDwithMongoDB.Common.Models;
 
-public class Book
+public class Book : BaseModel
 {
-    [BsonId]
-    [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
-    public string? Id { get; set; }
     [BsonElement("Name")]
     public string BookName { get; set; }
     public decimal Price { get; set; }

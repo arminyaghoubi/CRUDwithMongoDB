@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CRUDwithMongoDB.BL\CRUDwithMongoDB.BL.csproj" />
     <ProjectReference Include="..\CRUDwithMongoDB.Common\CRUDwithMongoDB.Common.csproj" />
   </ItemGroup>
 
