@@ -7,5 +7,5 @@ namespace CRUDwithMongoDB.BL.Extensions;
 public static class ServicesExtensions
 {
     public static IServiceCollection AddBusinessLogicServices(this IServiceCollection services) =>
-        services.AddSingleton<BaseService<Book>, BookService>();
+        services.AddScoped<BaseService<Book>, BookService>();
 }

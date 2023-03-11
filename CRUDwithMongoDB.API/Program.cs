@@ -1,5 +1,6 @@
 using CRUDwithMongoDB.Common.Models;
 using CRUDwithMongoDB.BL.Extensions;
+using CRUDwithMongoDB.DAL.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<BookStoreDatabaseSettings>(
     builder.Configuration.GetSection("BookStoreDatabase"));
 
-builder.Services.AddBusinessLogicServices();
+builder.Services.AddBusinessLogicServices()
+    .AddDataAccessRepositories();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

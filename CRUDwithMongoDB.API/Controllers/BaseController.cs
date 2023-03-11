@@ -65,8 +65,15 @@ public abstract class BaseController<T> : ControllerBase
         {
             return NotFound();
         }
+        try
+        {
 
         await _service.DeleteAsync(id);
+        }
+        catch (Exception ex)
+        {
+
+        }
 
         return NoContent();
     }
